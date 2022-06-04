@@ -1,9 +1,9 @@
 a = int(input())
-s = a**2
-x = str(a)
-y = str(s)
+b = a**2
+c = str(a)
+d = str(b)
 
-if y.endswith(x):
+if d.endswith(c):
     print("Automorphic Number")
 else:
     print("Not an Automorphic Number")
